@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #226f92;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.center-container {
+    height: 100%;
+    width: 60%;
+}
+.app-heading {
+    padding: 4px;
+    color: white;
+    /* text-align: center; */
+    font-family: "Roboto Mono", monospace;
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+.input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+.input-box {
+    width: 150%;
+    height: 50px;
+    border-radius: 3px;
+    border: 1px solid black;
+    padding-left: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    outline: none;
+    font-family: "Roboto Mono", monospace;
+    font-size: x-large;
+}
+.add-btn {
+    width: 155%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background-color: #e75732;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px rgba(11, 10, 10, 0.3);
+    transition: 0.3s;
+}
+.add-btn:active {
+    box-shadow: none;
+}
+.list-container {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.list-item {
+    list-style-type: none;
+    /* background-color: #596e8b; */
+    border: 2px solid rgb(161, 158, 158);
+    color: white;
+    padding: 3px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Roboto Mono", monospace;
+    font-size: x-large;
+}
+.icons {
+    position: absolute;
+    right: 10px;
+}
+.icons i {
+    margin: 4px;
+    font-size: large;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.icons i:hover {
+    transform: scale(1.2);
+}
+.icon-delete:hover {
+    color: red;
+}
